@@ -1,0 +1,177 @@
+body {
+    font-family: "Nunito";
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #034A9C;
+    /* border-bottom: 0.5px solid #034A9C; */
+    color: white;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+img {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+p {
+    margin-top: 12px;
+}
+
+.changeButton {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.switch {
+    margin: 3px;
+    padding: 0;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+}
+
+.switch:hover {
+    background: #F2F2F2;
+}
+
+.switch:active {
+    background: #DBDBDB;
+}
+
+.svg {
+    height: 25px;
+    width: 25px;
+}
+
+.enum {
+    user-select: none;
+    width: 50px;
+    color: #034A9C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form {
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+textarea {
+    font-family: "Nunito";
+    font-weight: 200;
+    font-size: 30px;
+    margin: 10px;
+    width: 97%;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item1 {
+    /* grid-row: 1; */
+    /* grid-column: 1; */
+}
+
+.item2 {
+    /* grid-row: 1 / span 2; */
+    /* grid-column: 2; */
+    writing-mode: vertical-lr;
+    border: none;
+    background: #F7F7F7;
+}
+
+.item3 {
+    grid-column: 1 / span 2;
+    transition: all 0.3s ease;
+    display: grid;
+    justify-content: center;
+}
+
+
+/* CSS */
+.button-18 {
+    margin-top: 20px;
+    height: 30px;
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.course {
+    margin: 0;
+    margin-right: 30px;
+    background: white;
+    color: #0A66C2;
+}
