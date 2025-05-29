@@ -12,7 +12,7 @@ const kimo = async (text, type) => {
     const url = 'https://api.chimege.com/v1.2/kimo-short';
     const headers = {
         'Content-Type': 'application/json',
-        'Token': '0bafe2202c500712139f47b9c828664b4012151c8a8acb7db84b82e56c8d3ac4',
+        'Token': '',
         'Type': type
     };
 
